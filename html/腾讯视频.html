@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>腾讯视频</title>
+    <link rel="stylesheet" href="/css/腾讯视频.css">
+    <script src="/jquery-1.12.4.js"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <a href="" class="logo">
+            <div class="avatarBox">
+                <img src="/images/logo（裁切）.png" alt="" class="avatarImg">
+            </div>
+        </a>
+        <div class="search">
+            <input type="text" name="" placeholder="龙族">
+            <button><span class="sousuo"></span></button>
+        </div>
+        <div class="user">
+            <a href="#">
+                <img src="/images/金vip.png" alt="">
+            </a>
+            <a href="#">
+                <img src="/images/时钟.png" alt="">
+            </a>
+            <a href="#">
+                <img src="/images/电脑 .png" alt="">
+            </a>
+            <a href="#">
+                <img src="/images/游戏.png" alt="">
+            </a>
+            <a href="#">
+                <img src="/images/视频.png" alt="">
+            </a>
+            <div class="login">
+                <img src="/images/个人登录.png" alt="用户图标" width="100%" height="100%">
+                <div class="login-content">
+                    <a href="#">登录之后可以</a>
+                    <a href="#" class="denlutu"><img src="/images/主页云.webp" >同步多端观看记录</a>
+                    <a href="#" class="denlutu"><img src="/images/主页讨论.webp" alt="">参与互动讨论</a>
+                    <a href="#" class="denlutu"><img src="/images/主页火.webp" alt="">观看更个性化内容</a>
+                    <a href="#" class="denlutu"><img src="/images/主页游戏.webp" alt="">领取专属游戏礼包</a>
+                    <div class="lijiden">立即登录</div>
+                </div>
+            </div>
+        </div>
+    </header>
+ <!-- 新增语义化标签 -->
+    <aside class="aside">
+        <ul class="nav">
+            <li><a href="#"><span class="jingxuan"></span><img src="/images/首页白.png" alt="">首页</a></li>
+            <li><a href="#"><span class="playCircle"></span><img src="/images/中视频.png" alt="">中视频</a></li>
+            <li><a href="#"><span class="shipin"></span><img src="/images/电视剧.png" alt="">电视剧</a></li>
+            <li><a href="#"><span class="dianshiju"></span><img src="/images/电影.png" alt="">电影</a></li>
+            <li><a href="#"><span class="dongman"></span><img src="/images/综艺.png" alt="">综艺</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/动漫.png" alt="">动漫</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/少儿.png" alt="">少儿</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/体育.png" alt="">体育</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/纪录片.png" alt="">纪录片</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/VIP会员.png" alt="">VIP会员</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/游戏中心.png" alt="">游戏</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/艺术.png" alt="">艺术</a></li>
+            <li><a href="#"><span class="zongyi"></span><img src="/images/知识.png" alt="">知识</a></li>
+
+
+        </ul>
+        <footer class="footer">
+            <ul class="links">
+                
+                <li><a href="">XX视频隐私保护指引</a></li>
+                <li><a href="">XX视频用户服务协议</a></li>
+                <li><a href="">XX视频第三方信息共享清单</a></li>
+                <li><a href="">XX视频已收集个人信息清单</a></li>
+                <li><a href="">XX儿童隐私保护声明</a></li>
+                <li><a href="">XX视频系列会员服务协议</a></li>
+            </ul>
+            <div class="copyright">
+                <li><a href="">粤网文[2023]2882-203号</a></li>
+                <li><a href="">网络视听许可证1904073号</a></li>
+                <li><a href="">粤公网安备</a></li>
+                <li><a href="">44030002000001号</a></li>
+                <li><a href="">增值电信业务经营许可证:</a></li>
+                <li><a href="">粤B2-20090059</a></li>
+                <li><a href="">关于腾讯 | About Tencent</a></li>
+                <li><a href="">服务条款 | 广告设置 |</a></li>
+                <li><a href="">XX招聘 客服中心 |</a></li>
+                <li><a href="">网站导航 </a></li>
+                <br>
+                <li><a href="">首页开发：</a></li>
+                <li><a href="">XXX</a></li>
+            </div>
+            <a href="#" class="logo">
+                <img src="/images/工商网图标.jpg" alt="">
+            </a>
+        </footer>
+    </aside>
+    <main class="content">
+        
+        <section class="banner">
+            <div class="mask-bg">
+                 <video id="myVideo"  autoplay loop>
+                    <source src="/video/背景视频.mp4">
+                </video>
+            </div>
+           
+            <div class="text-banner">
+                <div class="pic"><img src="/images/斗破苍穹字体.png" alt=""></div>
+                <div class="t1">东方玄幻 玄幻修真 逆袭</div>
+                <div class="t2">"异火重燃，决战云岚!" </div>
+                <div class="button btn">
+                    <span class="iconfont "></span>播放正片
+                </div>
+            </div>
+        </section>
+        
+        <section class="video-banner">
+            <div class="video-top">
+                <div class="head">
+                    <div class="left">
+                        <div class="tit">今日热门</div>
+                    </div>
+                    <div class="right">换一换</div>
+                </div>
+                <div class="list">
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_only.png" alt="">
+                            </div>
+                            <img src="/视频封面图/热门01.jpg" alt="" class="videoPic">
+                            <div class="tip">21:16</div>
+                        </a>
+                        <a href="#" class="tit">海绵宝宝合集</a>
+                        <span class="sub">黄色海绵的搞笑生活</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_vip.webp" alt="">
+                            </div>
+                            <img src="/视频封面图/热门02.jpg" alt="" class="videoPic">
+                            <div class="tip">24:37</div>
+                        </a>
+                        <a href="#" class="tit">完美世界</a>
+                        <span class="sub">谁在称无敌，哪个言不败</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_trailer.png" alt="">
+                            </div>
+                            <img src="/视频封面图/热门03.jpg" alt="" class="videoPic">
+                            <div class="tip">18:27</div>
+                        </a>
+                        <a href="#" class="tit">南海归墟，刺激嗨爆</a>
+                        <span class="sub">铁三角抵达神秘海域怪事频发</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_only.png" alt="">
+                            </div>
+                            <img src="/视频封面图/热门04.jpg" alt="" class="videoPic">
+                            <div class="tip">25:46</div>
+                        </a>
+                        <a href="#" class="tit">中国惊奇先生电影⚡首播</a>
+                        <span class="sub">神鬼七杀令出斩妖除魔！</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_vip.webp" alt="">
+                            </div>
+                            <img src="/视频封面图/热门05.jpg" alt="" class="videoPic">
+                            <div class="tip">128:27</div>
+                        </a>
+                        <a href="#" class="tit">长安三万里</a>
+                        <span class="sub">李白胸怀大鹏之志豪情万丈</span>
+                    </div>
+                </div>
+            </div>
+            <div class="video-top">
+                <div class="head">
+                    <div class="left">
+                        <div class="tit">重磅热播</div>
+                        <div class="list">
+                            <a href="#" class="active">全部</a>
+                            <a href="#">电视剧</a>
+                            <a href="#">综艺</a>
+                            <a href="#">电影</a>
+                            <a href="#">动漫</a>
+                            <a href="#">少儿</a>
+                            <a href="#">纪录片</a>
+                        </div>
+                    </div>
+                    <div class="right">换一换</div>
+                </div>
+                <div class="list">
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_only.png" alt="">
+                            </div>
+                            <img src="/视频封面图/热播01.jpg" alt="" class="vidoPic">
+                            <div class="tip">更新至72集</div>
+                        </a>
+                        <a href="#" class="tit">斗破苍穹年番</a>
+                        <span class="sub">异火重燃，决战云岚！</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_vip.webp" alt="">
+                            </div>
+                            <img src="/视频封面图/热播02.jpg" alt="" class="vidoPic">
+                            <div class="tip">更新至157集</div>
+                        </a>
+                        <a href="#" class="tit">汪汪队立大功合集</a>
+                        <span class="sub">狗狗的惊险救援任务</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_only.png" alt="">
+                            </div>
+                            <img src="/视频封面图/热播03.jpg" alt="" class="vidoPic">
+                            <div class="tip">更新至24集</div>
+                        </a>
+                        <a href="#" class="tit">斗罗大陆Ⅱ绝世唐门</a>
+                        <span class="sub">你我皆唐门，生在绝世中</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_vip.webp" alt="">
+                            </div>
+                            <img src="/视频封面图/热播04.jpg" alt="" class="vidoPic">
+                            <div class="tip"></div>
+                        </a>
+                        <a href="#" class="tit">巨齿鲨2：深渊</a>
+                        <span class="sub">斯坦森吴京双雄联手战巨鲨</span>
+                    </div>
+                    <div class="item">
+                        <a href="#" class="pic">
+                            <div class="tag">
+                                <img src="/images/tag_vip.webp" alt="">
+                            </div>
+                            <img src="/视频封面图/热播05.jpg" alt="" class="vidoPic">
+                            <div class="tip">2023-11-27</div>
+                        </a>
+                        <a href="#" class="tit">王牌对王牌 第8季</a>
+                        <span class="sub">来王牌开启欢乐之旅</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 为你推荐 -->
+            <div class="video-bottom">
+                <div class="head">
+                    <div class="left">
+                        <div class="tit">为你推荐</div>
+                        <div class="list">
+                            <a href="#" class="active">全部</a>
+                            <a href="#">科幻</a>
+                            <a href="#">都市生活</a>
+                            <a href="#">武侠江湖</a>
+                            <a href="#">真实事件改篇</a>
+                            <a href="#">原创动画</a>
+                            <a href="#">奇幻冒险</a>
+                            <a href="#">东方仙侠</a>
+                            <a href="#">国漫</a>
+                        </div>
+                    </div>
+                    <div class="right">更多</div>
+                </div>
+                <!-- 视频盒子 -->
+                <div class="list">
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐01.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐01小.jpg" alt="">
+                            <div class="info">
+                                <h3>猫和老鼠合集</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>机灵老鼠与笨猫的故事</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐09.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐09小.jpg" alt="">
+                            <div class="info">
+                                <h3>仙逆</h3>
+                                <span>东方玄幻 东方仙侠 逆袭</span>
+                                <p>王林豪气掷神识，运气就是拿来碰的！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐10.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐10小.jpg" alt="">
+                            <div class="info">
+                                <h3>流浪地球2</h3>
+                                <span>北京大学电影节最佳影片</span>
+                                <p>克拉拉变身性感入侵者</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐11.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐11小.jpg" alt="">
+                            <div class="info">
+                                <h3>独行月球</h3>
+                                <span>沈腾 马丽 未来科幻</span>
+                                <p>沈腾一个人被落在地球，太惨了</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐12.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐12小.jpg" alt="">
+                            <div class="info">
+                                <h3>火星异种</h3>
+                                <span>伊藤英明 武井咲 星际冒险</span>
+                                <p>火星异种在线变身，对战蟑螂军团</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐13.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐13小.jpg" alt="">
+                            <div class="info">
+                                <h3>绝命响应</h3>
+                                <span>未来科幻 热血战斗 正邪对抗</span>
+                                <p>集合力量对抗最强智能人</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐14.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐14小.jpg" alt="">
+                            <div class="info">
+                                <h3>紧急行动</h3>
+                                <span>一个人战争</span>
+                                <p>战士好枪法 打退敌人 军事题材</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐15.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐15小.jpg" alt="">
+                            <div class="info">
+                                <h3>斗罗大陆</h3>
+                                <span>东方玄幻 玄幻修真 技能比拼</span>
+                                <p>海神唐三在此，武魂殿何在</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐02.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐02小.jpg" alt="">
+                            <div class="info">
+                                <h3>致命指令</h3>
+                                <span>凡尼莎·科比 托尔·林德哈特 科幻动作</span>
+                                <p>杀戮机器人恐怖来袭</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐03.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐03小.jpg" alt="">
+                            <div class="info">
+                                <h3>轰天浩劫</h3>
+                                <span>詹姆斯·维尔拜 詹姆斯·卡沙莫 未来科幻</span>
+                                <p>彗星撞击地球</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐04.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/images/斗破苍穹.jpg" alt="">
+                            <div class="info">
+                                <h3>吞噬星空</h3>
+                                <span>未来科幻 英雄成长</span>
+                                <p>击电奔星！刀如虹光破兽群</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐05.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐05小.jpg" alt="">
+                            <div class="info">
+                                <h3>星域四万年</h3>
+                                <span>未来科幻 星际战斗 机甲战斗</span>
+                                <p>兽潮爆发，死战不退</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐06.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐06小.jpg" alt="">
+                            <div class="info">
+                                <h3>熊出没冬日乐翻天</h3>
+                                <span>搞笑动画 动物主题动画</span>
+                                <p>冬日里的碰撞</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐07.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐07小.jpg" alt="">
+                            <div class="info">
+                                <h3>江苏卫视2023跨年演唱会</h3>
+                                <span>邓紫棋 王俊凯 王源 张杰 周深嗨唱</span>
+                                <p>欢乐跨大年</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="/视频封面图/推荐08.jpg" alt="" class="pic">
+                        <div class="text">
+                            <img src="/视频封面图/推荐08小.jpg" alt="">
+                            <div class="info">
+                                <h3>环太平洋：雷霆再起</h3>
+                                <span>约翰·波耶加 未来科幻</span>
+                                <p>不明机甲袭击悉尼，大战复仇流浪者</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--  -->
+                </div>   
+                 
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="/js/腾讯视频.js"></script>
+</html>
